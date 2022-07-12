@@ -29,3 +29,7 @@ public class RecursionInJava {
 
     }
 }
+
+// thE value of facctorial n is : 120
+// thE value of facctorial x is : 362880
+// thE value of facctorial x is : 362880
