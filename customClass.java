@@ -1,7 +1,14 @@
+
 class Employee {
     String NIC;
     int id;
     String name;
+
+    public void printdetails() {
+        System.out.println("My Id is " + id);
+        System.out.println("My NAME IS " + name);
+        System.out.println("and MY NIC is " + NIC);
+    }
 }
 
 public class customClass {
@@ -12,7 +19,7 @@ public class customClass {
         mubashir.name = "Blockchain Scientist";
         mubashir.id = 12;
         System.out.println("Employer Data");
-        System.out.print("id : " + mubashir.id + " name  " + mubashir.name + " NIC : " + mubashir.NIC);
+        mubashir.printdetails();
     }
 
 }
